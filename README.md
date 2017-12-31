@@ -10,5 +10,5 @@ This app was built with the support of Parse-Backend service (Mbaas). But now fa
 ## Play store Link : 
 https://play.google.com/store/apps/details?id=com.online.shopping.buyme&hl=en
 
-## Demo Vide link : 
+## Demo Video link : 
 https://www.dropbox.com/s/7dc6tnmvogo2j7p/output.mp4?dl=0
