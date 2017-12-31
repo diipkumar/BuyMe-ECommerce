@@ -1,7 +1,5 @@
 # BuyMe E-Commerce App
 
-![Screenshot](screenshot/1.png)
-
 It is an light weight E-commerce app which shows all product based on the user location . Merchant can upload there products and sell to the people by means of delivery. It also support wishlist, reminder and profile of both merchant and user.
 
 ## Technical Details:
@@ -12,3 +10,13 @@ https://play.google.com/store/apps/details?id=com.online.shopping.buyme&hl=en
 
 ## Demo Video link : 
 https://www.dropbox.com/s/7dc6tnmvogo2j7p/output.mp4?dl=0
+
+
+![Screenshot](https://github.com/diipkumar/BuyMe-ECommerce/blob/master/screenshot/1.webp)
+![Screenshot](https://github.com/diipkumar/BuyMe-ECommerce/blob/master/screenshot/2.webp)
+![Screenshot](https://github.com/diipkumar/BuyMe-ECommerce/blob/master/screenshot/3.webp)
+![Screenshot](https://github.com/diipkumar/BuyMe-ECommerce/blob/master/screenshot/4.webp)
+![Screenshot](https://github.com/diipkumar/BuyMe-ECommerce/blob/master/screenshot/5.webp)
+![Screenshot](https://github.com/diipkumar/BuyMe-ECommerce/blob/master/screenshot/6.webp)
+![Screenshot](https://github.com/diipkumar/BuyMe-ECommerce/blob/master/screenshot/7.webp)
+![Screenshot](https://github.com/diipkumar/BuyMe-ECommerce/blob/master/screenshot/8.webp)
