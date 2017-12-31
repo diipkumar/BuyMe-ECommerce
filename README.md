@@ -1,6 +1,9 @@
 # BuyMe E-Commerce App
 
-It is an light weight E-commerce app which shows all product based on the user location . Merchant can upload there products and sell to the people by means of delivery. It also support wishlist, reminder and profile of both merchant and user.
+Buy Me, A shopping Application that brings sellers and buyers closer based on locations. 
+Easy to use interface helps seller to upload products in few clicks. 
+Liking a product by buyers encourages latest fashion and lifestyle around you.
+Bundled with features like sharing products filtering search options tracking order status and beautiful UI gives you the best of it.
 
 ## Technical Details:
 This app was built with the support of Parse-Backend service (Mbaas). But now facebook has shut down the parse. We can still run by hosting Parse server over AWS. You can host the parse server over aws and replace the key in constant file of this project. This app also include the sms verification system for sign in . I have used cognalys verification service for this. 
