@@ -1,0 +1,2 @@
+include ':app', ':CropImage'
+include ':aphidFlipViewLibrary'

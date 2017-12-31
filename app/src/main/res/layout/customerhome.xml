@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/customerhome_topmargin"
+                android:padding="@dimen/tv_padding"
+                android:text="@string/popular"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/tv_title" />
+
+            <it.sephiroth.android.library.widget.HListView
+                android:id="@+id/PopularListView"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/hlistview_height"
+                android:layout_marginLeft="@dimen/hlistview_left_margin"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/customerhome_topmargin"
+                android:padding="@dimen/tv_padding"
+                android:textStyle="bold"
+                android:text="@string/electronics"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/tv_title" />
+
+            <it.sephiroth.android.library.widget.HListView
+                android:id="@+id/ElectronicListView"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/hlistview_height"
+                android:layout_marginLeft="@dimen/hlistview_left_margin" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:padding="@dimen/tv_padding"
+                android:layout_marginTop="@dimen/customerhome_topmargin"
+                android:text="@string/fashionandstyle"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/tv_title" />
+
+            <it.sephiroth.android.library.widget.HListView
+                android:id="@+id/FashionAndStyleListView"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/hlistview_height"
+                android:layout_marginLeft="@dimen/hlistview_left_margin" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/customerhome_topmargin"
+                android:padding="@dimen/tv_padding"
+                android:textStyle="bold"
+                android:text="@string/homeappliances"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/tv_title" />
+
+            <it.sephiroth.android.library.widget.HListView
+                android:id="@+id/HomeApplicanesListView"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/hlistview_height"
+                android:layout_marginLeft="@dimen/hlistview_left_margin"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

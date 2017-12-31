@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="cp_tv_body">15sp</dimen>
+    <dimen name="cp_tv_btn">17sp</dimen>
+    <dimen name="hlistview_height">155dip</dimen>
+    <dimen name="hlistview_left_margin">3dip</dimen>
+    <dimen name="card_vertical_gap">6dip</dimen>
+    <dimen name="card_horizontal_gap">5dip</dimen>
+    <dimen name="forgotpassword_topmargin">10dp</dimen>
+
+</resources>

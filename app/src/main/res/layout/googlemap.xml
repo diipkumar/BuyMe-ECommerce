@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/layout_topmargin"
+            android:weightSum="1">
+
+            <com.devspark.robototextview.widget.RobotoAutoCompleteTextView
+                android:id="@+id/autocomplete_places"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/searchbox_height"
+                android:layout_weight=".85"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/white"
+                android:dropDownHeight="250dip"
+                android:hint="@string/autocomplete_hint"
+                android:textColorHint="@color/grey"
+                android:padding="@dimen/autocomplete_padding"
+                android:scrollbars="horizontal"
+                android:textColor="@color/blue"
+                android:textCursorDrawable="@null"
+                android:textSize="@dimen/tv_body" />
+
+            <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/searchbox_height"
+            android:gravity="center"
+            android:background="@color/white"
+            android:layout_weight=".15">
+
+            <ImageView
+                android:id="@+id/search_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/search_icon" />
+
+        </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/btn_marginbottom"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal|bottom">
+
+            <TextView
+                android:id="@+id/mapsave"
+                android:layout_width="@dimen/btn_save_width"
+                android:layout_height="@dimen/btn_save_height"
+                android:background="@color/blue"
+                android:gravity="center"
+                android:text="@string/Save"
+                android:textColor="@color/white"
+                android:textSize="@dimen/tv_body_caption"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

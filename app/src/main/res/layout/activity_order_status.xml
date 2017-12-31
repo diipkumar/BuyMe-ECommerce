@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.online.shopping.buyme.Customer.OrderStatus">
+
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+    android:layout_width="fill_parent"
+    android:layout_height="140dp"
+    android:id="@+id/sellersinfo"/>
+
+    <com.online.shopping.buyme.Extras.AnimatedExpandableListView
+        android:groupIndicator="@null"
+        android:id="@+id/productlist"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white"
+        android:divider="@android:color/transparent"
+        android:drawSelectorOnTop="false"
+        android:paddingTop="@dimen/drawer_margintop" />
+
+</LinearLayout>

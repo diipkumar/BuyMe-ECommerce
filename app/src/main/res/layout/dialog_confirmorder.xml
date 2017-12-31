@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm_order"
+        android:textSize="@dimen/dialog_title"
+        android:background="@color/blue"
+        android:textColor="@color/white"
+        android:padding="@dimen/dialog_title_padding"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dialog_padding">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text="@string/product_name"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/tv_body" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".3"
+            android:gravity="center"
+            android:text="@string/tv_div" />
+
+        <EditText
+            android:id="@+id/cust_name"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.7"
+            android:background="@drawable/etbg"
+            android:padding="@dimen/et_padding"
+            android:textSize="@dimen/tv_body"
+            android:textCursorDrawable="@null"
+            android:textColor="@color/grey"
+            android:textColorHint="@color/grey"
+            android:inputType="text"
+            android:hint="@string/cust_name_hint"
+            android:gravity="start"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:gravity="center|left"
+            android:text="@string/phone"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/tv_body" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".3"
+            android:gravity="center"
+            android:text="@string/tv_div" />
+
+        <EditText
+            android:id="@+id/cust_number"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1.7"
+            android:gravity="start"
+            android:background="@drawable/etbg"
+            android:padding="@dimen/et_padding"
+            android:textColor="@color/grey"
+            android:textCursorDrawable="@null"
+            android:hint="@string/cust_phone_hint"
+            android:textSize="@dimen/tv_body"
+            android:textColorHint="@color/grey"
+            android:inputType="number"
+            android:maxLength="10" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"
+            android:text="@string/Address"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/tv_body" />
+
+        <EditText
+            android:id="@+id/cust_address"
+            android:layout_height="70dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/textbox"
+            android:hint="@string/cust_address_hint"
+            android:gravity="start"
+            android:textCursorDrawable="@null"
+            android:textColor="@color/grey"
+            android:textColorHint="@color/grey"
+            android:padding="@dimen/et_padding"
+            android:maxLines="3"
+            android:layout_marginTop="@dimen/textnox_margintop"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textSize="@dimen/tv_dialog_action"
+            android:textColor="@color/blue"
+            android:paddingTop="@dimen/dialog_action_padding"
+            android:paddingLeft="@dimen/dialog_action_padding"
+            android:paddingRight="@dimen/dialog_action_padding"/>
+
+        <TextView
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:textSize="@dimen/tv_dialog_action"
+            android:textColor="@color/blue"
+            android:paddingTop="@dimen/dialog_action_padding"
+            android:paddingLeft="@dimen/dialog_action_padding"
+            android:paddingRight="@dimen/dialog_action_padding"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

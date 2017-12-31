@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="cp_tv_body">16sp</dimen>
+    <dimen name="card_vertical_gap">1dip</dimen>
+    <dimen name="hlistview_height">150dip</dimen>
+    <dimen name="card_horizontal_gap">2dip</dimen>
+    <dimen name="forgotpassword_topmargin">50dp</dimen>
+    <dimen name="content_magin">12dip</dimen>
+</resources>

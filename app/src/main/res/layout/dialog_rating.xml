@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:padding="@dimen/dialog_title_padding"
+        android:text="@string/rate_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/dialog_title" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/dialog_padding">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="horizontal"
+            android:padding="@dimen/dialog_padding"
+            android:weightSum="5">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/star_filled" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/star_filled" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/star_filled" />
+
+            <ImageView
+                android:id="@+id/image4"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/star_empty" />
+
+            <ImageView
+                android:id="@+id/image5"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/star_empty" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|left"
+                android:text="@string/comment"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/tv_body" />
+
+            <EditText
+                android:id="@+id/comment"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@android:drawable/editbox_background"
+                android:gravity="start"
+                android:textCursorDrawable="@null"
+                android:hint="@string/optional"
+                android:maxLines="3"
+                android:textColor="@color/grey"
+                android:padding="@dimen/et_padding" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:textSize="@dimen/tv_dialog_action"
+                android:textColor="@color/blue"
+                android:paddingTop="@dimen/dialog_action_padding"
+                android:paddingLeft="@dimen/dialog_action_padding"
+                android:paddingRight="@dimen/dialog_action_padding"/>
+
+            <TextView
+                android:id="@+id/ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ok"
+                android:textSize="@dimen/tv_dialog_action"
+                android:textColor="@color/blue"
+                android:paddingTop="@dimen/dialog_action_padding"
+                android:paddingLeft="@dimen/dialog_action_padding"
+                android:paddingRight="@dimen/dialog_action_padding"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

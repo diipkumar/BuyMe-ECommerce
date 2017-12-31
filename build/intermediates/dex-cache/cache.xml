@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.github.gabrielemariotti.cards\cardslib-core\2.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8190861e323934dad89d5e6b830ea66878c11970">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.github.gabrielemariotti.cards-cardslib-core-2.1.0_62e4ee29473e5b28fa4aa880ba1b24fda52d5468.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6440e5e5cfe368f9bff3c537fb8988048069cb33">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-7.5.0_378d991ccd22fdd7a53a66ce1e8d2392441ff26e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.ikimuhendis\ldrawer\0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d3bec8d72ee2aa86e69f66375c31f2161b7bb324">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.ikimuhendis-ldrawer-0.1_44454bfd6765a47305dcdf381fdb5fcbe43a3007.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1e98ef3f124bb7a11f8575f9ff5dfea330b61b6f">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-7.5.0_d78b5e2b7090782087bd79d8d4339271484976cb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="272bc5d7063f24bc3a33ea1d318cde8f31f5ec4c">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-7.5.0_07039a35ddf38dd4de327ec6b07ae5c41c99e6c6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="69dd177337ead693c408c8dddc9546bb6f1244fa">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-7.5.0_ca13ff35dd78aebd94c7ababffadab3d505040fa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.github.rahatarmanahmed\circularprogressview\2.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9a883402815cf6ab7b526e84bbd1d8752f075cd3">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.github.rahatarmanahmed-circularprogressview-2.4.0_2a0eeb80ba67cb6e40db02f648d576d48022f68d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5ddf5f4817565c9db82613c16093f76640a54e15">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.android.support-support-v13-23.1.1_d99e3634d1f24eb9c3bd5b42207a707ad764fe2d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\it.sephiroth.android.library.horizontallistview\hlistview\1.2.2\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="698658e3af1e3f2a5b199e0d09ee6c57793405bd">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\it.sephiroth.android.library.horizontallistview-hlistview-1.2.2_8300e44e3e3801ea3bfef7ae1566a8a0fd2845ec.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_02e475664de1a9dba9987c5f4dbde1cfa39ad572.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\BuyMe\aphidFlipViewLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4b0545d9fe9b98cf687d54504f6e40c2ce198e8b">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\BuyMe-aphidFlipViewLibrary-unspecified_a85e7af669a8e3d84796fd5ce3e429937813d241.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="02bac2dc792d78241077861566f2c82da955e7fa">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-7.5.0_244bcea43f9550467ec84501d7beefa7fee8925c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="63ec6e9f4fe5482a7447d0f3091b8e543a02554c">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appinvite-7.5.0_3aabb03b0677623cf8378a1f438b7c584051f614.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1372c17fccacca753d3951d3ad820571cbce075">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.android.support-mediarouter-v7-22.0.0_438550b69ea547e022cff38ec5f12a24cad345ee.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.github.clans\fab\1.6.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ca504182198db4a0f81779ca3fe391374c8cb66a">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.github.clans-fab-1.6.1_eb27ece17d9ff645376d6cb48b3e0b7757ca8d72.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d405025c600055237c171a0bbabaa49d69696573">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-7.5.0_b3c90c6742f67f585e650df7f2f71c042d16d26c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a78183f30e769a98ab4820794f597763088d3065">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-7.5.0_377908a0b7d56a0d2eca24ad2869bbf91e96061b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e7b35244f50663b3f8d150714bca9ecd7a290da1">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-7.5.0_8b7c6a2fcf464038b3df7a5e286bcdf29a8f6be4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba207be21987c11b37d9f8faa08ed6e722569f30">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-7.5.0_86c0a97f4f1698442aaf2d6326a7188f0f110111.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_329c388a10e2a3074a9022a65a091a4caba34503.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a172852a35ff919e85b9b7f14bbc15c5bee25520">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-7.5.0_a59cc6b0ae9e21f64f50b543f88ee41236908a12.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1a6411087ab88ce5542f593e63a2752b6b0d6f1a">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-7.5.0_8d8ecbb0749712d6e3ed75aaaab65e24b158b66e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\libs\Parse-1.9.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="56c22930b5d4f77015b6a40c7f14103d3e101001">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\Parse-1.9.4_2967136214355dc3c28bee2153536a18bd73690b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8e3a972f28b8bae817e382257ba177a31bcadbbc">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-7.5.0_63b8624e249c53ce714808d02c13bbcb6395efa7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29ebc7e04d877062317c8cc0e68b20f0c1fcda66">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-7.5.0_53906242a50993135be50cb305c1ae07a5dddd52.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_5f528a04825f86da3c74a0ba2c65ef4414c0709f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8d736fefa22d896e84a268354b3ed48a42663150">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-7.5.0_ddfae46998d10d93d5594ed51f56e0a68eef066e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_8eecfa01062ef6e42b34ec745f3f3b3c7eafebb9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="6836d188602ec5382d1967c58b00960eb8ff8773">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-7.5.0_fe854e99f56e74674d8a784d2305ae0175d6be73.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-22.2.1_18fad68c6a28c390490310c7a5d30135491ebb5b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.github.rey5137\material\1.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0040be6592cbfbb19a2c1e90a759278795ed2280">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.github.rey5137-material-1.2.1_11bc333f07aeafbcf10a8d1b282bd249c0538d05.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_95d4266121b4f50ee9a14dc37c1e8f71416a2eda.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f44d03c138cb6488fdbaa65e3a7e5878861a56d8">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-7.5.0_84338ee88dcec5ebe214abcfaccaf762bb61981e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="68c140702c7242d914655bcb3164d9e8c45b84cb">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appstate-7.5.0_9461a149f7dd16819d41d25c731408e2b3548ee8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\BuyMe\CropImage\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a1bb8855d4a0856ff2fe2f2f138094cf617cc4bc">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\BuyMe-CropImage-unspecified_418703bcd3028ec00ce01d4647946b4cc6ee34e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.android.support-design-22.2.0_ad391a12cddbb5c316b8c27ea5396f13dfb2c595.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-22.2.0_ea3de151d68a58d688e5db6baca2677c8630d68b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f02127a85abd52a2cd526d4c2409f21969f80ee8">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-7.5.0_ed9d41ccc304e272e7607399d2576d38c04bb8f5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.5.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="06a42becc33232ec0ee125161da68c1829c9f8fd">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-7.5.0_72b3ec285b9701ba14ffa8f161352602f41b7837.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ba3df4eb0a630d7de294f0e48d3f9267d279b784">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0_a71b2b8f47fd857ca58bd4f25089cc6070dab6b6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.android.support\support-v13\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f4d7a07120e76988f3a15403838d323c2400db83">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_ae8d5a3929a8e67a7a1608dd60f7c87538603210.jar" />
+    </item>
+    <item
+        jar="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\exploded-aar\com.github.johnkil.android-robototextview\robototextview\2.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b041169a5dce7f40a0b6162be23f0f000e8278c9">
+        <dex dex="C:\Users\Avi\Desktop\dilip 2410\BuyMe\BuyMe\app\build\intermediates\pre-dexed\debug\com.github.johnkil.android-robototextview-robototextview-2.4.0_06978b2a9774050bf177f927eb06dd1bac0f1723.jar" />
+    </item>
+
+</items>

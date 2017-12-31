@@ -1,0 +1,88 @@
+[
+    {
+        "outputFile": "C:\\Users\\Jerry\\AndroidStudioProjects\\BuyMe\\aphidFlipViewLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 395,
+                    "endColumn": 49,
+                    "endOffset": 440
+                },
+                "from": {
+                    "file": "C:\\Users\\Jerry\\AndroidStudioProjects\\BuyMe\\aphidFlipViewLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 395,
+                        "endColumn": 49,
+                        "endOffset": 440
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 445,
+                    "endColumn": 57,
+                    "endOffset": 498
+                },
+                "from": {
+                    "file": "C:\\Users\\Jerry\\AndroidStudioProjects\\BuyMe\\aphidFlipViewLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 445,
+                        "endColumn": 57,
+                        "endOffset": 498
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\Avi\\Desktop\\dilip 2410\\BuyMe\\BuyMe\\aphidFlipViewLibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 395,
+                    "endColumn": 49,
+                    "endOffset": 440
+                },
+                "from": {
+                    "file": "C:\\Users\\Avi\\Desktop\\dilip 2410\\BuyMe\\BuyMe\\aphidFlipViewLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 395,
+                        "endColumn": 49,
+                        "endOffset": 440
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 445,
+                    "endColumn": 57,
+                    "endOffset": 498
+                },
+                "from": {
+                    "file": "C:\\Users\\Avi\\Desktop\\dilip 2410\\BuyMe\\BuyMe\\aphidFlipViewLibrary\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 445,
+                        "endColumn": 57,
+                        "endOffset": 498
+                    }
+                }
+            }
+        ]
+    }
+]

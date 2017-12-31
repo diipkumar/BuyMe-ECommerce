@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/title_marginbottom"
+                android:layout_marginLeft="@dimen/layout_padding"
+                android:layout_marginTop="@dimen/profile_margintop"
+                android:text="@string/filter_distance"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/tv_title" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="@dimen/card_tv_marginleft"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/layout_padding"
+                android:paddingRight="@dimen/layout_padding">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginBottom="@dimen/filter_tv_marginbottom"
+                        android:gravity="center|left"
+                        android:layout_marginTop="@dimen/filter_tv_marginbottom"
+                        android:text="@string/any"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/tv_body" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="@dimen/filter_tv_marginbottom"
+                        android:layout_marginBottom="@dimen/filter_tv_marginbottom"
+                        android:gravity="center|left"
+                        android:text="@string/distance1"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/tv_body" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="@dimen/filter_tv_marginbottom"
+                        android:layout_marginBottom="@dimen/filter_tv_marginbottom"
+                        android:gravity="center|left"
+                        android:text="@string/distance2"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/tv_body" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:layout_marginTop="@dimen/filter_tv_marginbottom"
+                        android:gravity="center|left"
+                        android:text="@string/distance3"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/tv_body" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+
+                        <RadioButton
+                            android:id="@+id/radiodistanceany"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/abc_btn_radio_material"
+                            android:checked="false" />
+
+                        <RadioButton
+                            android:id="@+id/radiodistance1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/abc_btn_radio_material" />
+
+                        <RadioButton
+                            android:id="@+id/radiodistance2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/abc_btn_radio_material" />
+
+                        <RadioButton
+                            android:id="@+id/radiodistance3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/abc_btn_radio_material" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/title_marginbottom"
+                android:layout_marginLeft="@dimen/layout_padding"
+                android:layout_marginTop="@dimen/profile_margintop"
+                android:text="@string/filter_price"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/tv_title" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="@dimen/card_tv_marginleft"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingLeft="@dimen/layout_padding"
+                android:paddingRight="@dimen/layout_padding">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/filter_tv_marginbottom"
+                        android:layout_marginBottom="@dimen/filter_tv_marginbottom"
+                        android:gravity="center|left"
+                        android:text="@string/price0"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/tv_body" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/filter_tv_marginbottom"
+                        android:layout_marginBottom="@dimen/filter_tv_marginbottom"
+                        android:gravity="center|left"
+                        android:text="@string/price1"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/tv_body" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/filter_tv_marginbottom"
+                        android:layout_marginBottom="@dimen/filter_tv_marginbottom"
+                        android:gravity="center|left"
+                        android:text="@string/price2"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/tv_body" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/filter_tv_marginbottom"
+                        android:layout_marginBottom="@dimen/filter_tv_marginbottom"
+                        android:gravity="center|left"
+                        android:text="@string/price3"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/tv_body" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|left"
+                        android:text="@string/price4"
+                        android:layout_marginTop="@dimen/filter_tv_marginbottom"
+                        android:layout_marginBottom="@dimen/filter_tv_marginbottom"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/tv_body" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="center|left"
+                        android:text="@string/price5"
+                        android:layout_marginTop="@dimen/filter_tv_marginbottom"
+                        android:layout_marginBottom="@dimen/filter_tv_marginbottom"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/tv_body" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="center|left"
+                        android:text="@string/price6"
+                        android:layout_marginTop="@dimen/filter_tv_marginbottom"
+                        android:layout_marginBottom="@dimen/filter_tv_marginbottom"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/tv_body" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:gravity="center|left"
+                        android:text="@string/price7"
+                        android:layout_marginTop="@dimen/filter_tv_marginbottom"
+                        android:textColor="@color/blue"
+                        android:textSize="@dimen/tv_body" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right">
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+
+                        <RadioButton
+                            android:id="@+id/radioprice0"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/abc_btn_radio_material"
+                            android:checked="false" />
+
+
+                        <RadioButton
+                            android:id="@+id/radioprice1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/abc_btn_radio_material"
+                            android:checked="false" />
+
+                        <RadioButton
+                            android:id="@+id/radioprice2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/abc_btn_radio_material" />
+
+                        <RadioButton
+                            android:id="@+id/radioprice3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/abc_btn_radio_material" />
+
+                        <RadioButton
+                            android:id="@+id/radioprice4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/abc_btn_radio_material" />
+
+                        <RadioButton
+                            android:id="@+id/radioprice5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/abc_btn_radio_material" />
+
+                        <RadioButton
+                            android:id="@+id/radioprice6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/abc_btn_radio_material" />
+
+                        <RadioButton
+                            android:id="@+id/radioprice7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:button="@drawable/abc_btn_radio_material"/>
+
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/tv_marginbottom"
+                android:layout_marginTop="@dimen/profile_margintop"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/layout_padding"
+                    android:gravity="center|left"
+                    android:text="@string/filter_cod"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/tv_title" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:paddingRight="@dimen/layout_padding">
+
+                    <com.rey.material.widget.CheckBox
+                        android:id="@+id/checkboxcod"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:button="@drawable/abc_btn_check_material" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

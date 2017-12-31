@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/card_list_padding">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/productlistimage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/notavailable" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center|left"
+            android:layout_marginLeft="@dimen/tvbody_marginleft"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/productlistname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/tv_body" />
+
+            <TextView
+                android:id="@+id/productlistprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="price"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/tv_body_small" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center|right"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qty"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/tv_body"/>
+
+            <TextView
+                android:id="@+id/quantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 2"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/tv_body"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/layout_padding">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ordernoenter"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/profile_margintop"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="start"
+                    android:text="@string/order_no"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/tv_title"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/orderno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text=" 1320"
+                    android:textColor="@color/grey"
+                    android:textSize="@dimen/tv_title" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/profile_margintop"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ordertitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/title_marginbottom"
+                    android:text="@string/sellers_info"
+                    android:textColor="@color/blue"
+                    android:textSize="@dimen/tv_title"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:id="@+id/sellersinfocontent"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/tvbody_marginleft"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:gravity="center|left"
+                            android:text="@string/order_status"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/tv_body" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight=".1"
+                            android:gravity="right|center"
+                            android:text="@string/tv_div" />
+
+                        <Spinner
+                            android:id="@+id/orderstatusspinner"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.3"
+                            android:gravity="start"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/tv_body" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/tv_marginbottom"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+
+                        android:weightSum="3">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:gravity="center|left"
+                            android:text="@string/name"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/tv_body" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight=".2"
+                            android:gravity="center"
+                            android:text="@string/tv_div" />
+
+                        <TextView
+                            android:id="@+id/ordestatusname"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.7"
+                            android:gravity="start"
+                            android:text="Fashion Plus"
+                            android:textColor="@color/grey"
+                            android:textSize="@dimen/tv_body" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:weightSum="4">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.3"
+                            android:gravity="center|left"
+                            android:text="@string/phone"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/tv_body" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight=".3"
+                            android:gravity="center"
+                            android:text="@string/tv_div" />
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1.3"
+                            android:gravity="start|center">
+
+                            <TextView
+                                android:id="@+id/orderphonenumber"
+                                android:layout_width="wrap_content"
+                                android:layout_height="fill_parent"
+                                android:gravity="start|center"
+                                android:maxLength="10"
+                                android:text="1234567890"
+                                android:textColor="@color/grey"
+                                android:textSize="@dimen/tv_body" />
+
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/callmobile"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".5"
+                            android:src="@drawable/call" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:orientation="horizontal"
+                        android:weightSum="3">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:gravity="left"
+                            android:text="@string/Address"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/tv_body" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_weight=".2"
+                            android:gravity="top|center"
+                            android:text="@string/tv_div" />
+
+                        <TextView
+                            android:id="@+id/orderstatusaddress"
+                            android:layout_width="0dp"
+                            android:layout_height="fill_parent"
+                            android:layout_gravity="bottom|left"
+                            android:layout_weight="1.8"
+                            android:text="#46, annapillai street, chennai 600079, Tamil Nadu"
+                            android:textColor="@color/grey"
+                            android:textSize="@dimen/tv_body" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:weightSum="5">
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3.5"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/productinfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="@dimen/title_marginbottom"
+                            android:layout_marginTop="@dimen/profile_margintop"
+                            android:text="@string/product_info"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/tv_title"
+                            android:textStyle="bold" />
+
+                        <com.online.shopping.buyme.Extras.AnimatedExpandableListView
+                            android:id="@+id/productlist"
+                            android:scrollbars="none"
+                            android:layout_width="fill_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="start"
+                            android:background="@android:color/white"
+                            android:divider="@android:color/transparent"
+                            android:drawSelectorOnTop="false"
+                            android:groupIndicator="@null"
+                            android:paddingTop="@dimen/drawer_margintop" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.5"
+                        android:orientation="horizontal"
+                        android:padding="20dp"
+                        android:gravity="bottom"
+                        android:weightSum="2">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.3"
+                            android:gravity="center|left"
+                            android:text="@string/total"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/tv_body" />
+
+                        <TextView
+                            android:id="@+id/totalprice"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight=".7"
+                            android:gravity="center|right"
+                            android:textColor="@color/blue"
+                            android:textSize="@dimen/tv_body" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:padding="@dimen/card_grid_view_padding"
+        android:layout_height="fill_parent">
+
+        <it.gmariotti.cardslib.library.view.CardGridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="2"
+            android:verticalSpacing="@dimen/card_vertical_gap"
+            android:horizontalSpacing="@dimen/card_horizontal_gap"
+            android:stretchMode="columnWidth"
+            android:gravity="center"
+            android:scrollbars="none"
+            android:clipToPadding="false"
+            card:list_card_layout_resourceID="@layout/gridviewitem"
+            android:id="@+id/carddemo_grid_base1"/>
+
+       <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_margin="@dimen/plus_margin"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+       android:src="@drawable/plus"
+           card:fab_colorPressed="@color/violet"
+           card:fab_colorNormal="@color/violet"
+           android:background="@color/violet"
+           android:layout_alignParentBottom="true"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <com.online.shopping.buyme.Extras.AnimatedExpandableListView
+        android:layout_height="match_parent"
+        android:layout_width="250dp"
+        android:paddingTop="@dimen/drawer_margintop"
+        android:layout_gravity="start"
+        android:groupIndicator="@null"
+        android:background="@android:color/white"
+        android:divider="@android:color/transparent"
+        android:drawSelectorOnTop="false"
+        android:id="@+id/navdrawer"/>
+
+
+</android.support.v4.widget.DrawerLayout>

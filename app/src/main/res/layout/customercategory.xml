@@ -1,0 +1,20 @@
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/card_grid_view_padding"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto">
+
+    <it.gmariotti.cardslib.library.view.CardGridView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:numColumns="2"
+        android:verticalSpacing="@dimen/card_vertical_gap"
+        android:horizontalSpacing="@dimen/card_horizontal_gap"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:scrollbarStyle="insideOverlay"
+        android:clipToPadding="false"
+        card:list_card_layout_resourceID="@layout/gridviewitem"
+        android:id="@+id/carddemo_grid_base1"/>
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<resources>
+
+    <style name="HListView">
+        <item name="hlv_dividerWidth">@dimen/hlistview_width</item>
+    </style>
+
+    <style name="FragmentTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style parent="Theme.AppCompat.Light.DarkActionBar" name="AppTheme">
+        <item name="colorAccent">@color/blue</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+    </style>
+
+    <style parent="Theme.AppCompat.NoActionBar" name="NOActionBar">
+        <item name="elevation">0dp</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="ActionBarDrawable" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="hlv_listViewStyle">@style/HListView</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+    </style>
+
+    <style name="acb" parent="android:Widget.ActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">@color/blue</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:height">50dp</item>
+        <item name="android:titleTextStyle">@style/ActionBar.TitleText</item>
+        <item name="elevation">0dp</item>
+    </style>
+
+    <style parent="android:Theme.Holo.Light.DarkActionBar" name="acb_wishlist">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="colorAccent">@color/violet</item>
+        <item name="hlv_listViewStyle">@style/HListView</item>
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/blue</item>
+        <item name="android:actionBarStyle">@style/acb</item>
+    </style>
+
+
+
+    <style name="ActionBar" parent="android:Widget.ActionBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:background">@color/blue</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:height">55dp</item>
+        <item name="android:titleTextStyle">@style/ActionBar.TitleText</item>
+    </style>
+
+    <style name="ActionBar.TitleText" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

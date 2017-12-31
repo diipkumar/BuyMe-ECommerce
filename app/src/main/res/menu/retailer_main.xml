@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.avi.dummy.MainActivity">
+
+    <item
+        android:icon="@drawable/profile"
+        android:id="@+id/mennu_profile_item" android:title="@string/retailer_profile"
+        android:showAsAction="always" />
+    <item
+        android:title="Settings"
+        android:icon="@drawable/settings"
+        android:showAsAction="always">
+    <menu>
+    <item android:id="@+id/menu_change_password" android:title="@string/ChangePassword"
+        android:orderInCategory="100" />
+    <item android:id="@+id/menu_Share_App" android:title="@string/ShareApp"
+        android:orderInCategory="100" />
+        <item android:id="@+id/menu_order_status" android:title="@string/order_status"
+          android:orderInCategory="100"  />
+        <item android:id="@+id/menu_order_feedback" android:title="@string/feedback"
+            android:orderInCategory="100"  />
+        <item android:id="@+id/menu_logout" android:title="@string/Logout"
+            android:orderInCategory="100" />
+
+    </menu>
+    </item>
+</menu>

@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.avi.dummy.MainActivity">
+
+    <item
+        android:id="@+id/menu_basket_item"
+        android:icon="@drawable/basketactionbar"
+        android:showAsAction="always"
+        android:title="@string/menu_basket" />
+    <item
+        android:icon="@drawable/settings"
+        android:showAsAction="always"
+        android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/filters"
+                android:orderInCategory="100"
+                android:title="@string/FilterOption" />
+            <item
+                android:id="@+id/menu_change_password"
+                android:orderInCategory="100"
+                android:title="@string/ChangePassword" />
+            <item
+                android:id="@+id/menu_order_status"
+                android:orderInCategory="100"
+                android:title="@string/order_status" />
+            <item
+                android:id="@+id/menu_more"
+                android:orderInCategory="100"
+                android:title="@string/settings" />
+        </menu>
+    </item>
+</menu>
